@@ -77,3 +77,6 @@ source "/Users/joaquindelriofernandez/.espressif/v5.5.2/esp-idf/components/usb/K
 source "/Users/joaquindelriofernandez/.espressif/v5.5.2/esp-idf/components/vfs/Kconfig"
 source "/Users/joaquindelriofernandez/.espressif/v5.5.2/esp-idf/components/wear_levelling/Kconfig"
 source "/Users/joaquindelriofernandez/.espressif/v5.5.2/esp-idf/components/wifi_provisioning/Kconfig"
+source "/Users/joaquindelriofernandez/esp/projects/eth_hello/managed_components/esp-idf-lib__i2cdev/Kconfig"
+source "/Users/joaquindelriofernandez/esp/projects/eth_hello/managed_components/espressif__cmake_utilities/Kconfig"
+source "/Users/joaquindelriofernandez/esp/projects/eth_hello/managed_components/espressif__i2c_bus/Kconfig"

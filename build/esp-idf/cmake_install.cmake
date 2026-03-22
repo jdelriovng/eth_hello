@@ -559,6 +559,36 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__esp_idf_lib_helpers/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__i2cdev/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__bmp280/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__cmake_utilities/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__i2c_bus/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__aht20/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/main/cmake_install.cmake")
 endif()
 

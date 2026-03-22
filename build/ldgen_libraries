@@ -157,5 +157,13 @@
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/spiffs/libspiffs.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/json/libjson.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__i2cdev/libesp-idf-lib__i2cdev.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__bmp280/libesp-idf-lib__bmp280.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__i2cdev/libesp-idf-lib__i2cdev.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__i2c_bus/libespressif__i2c_bus.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__aht20/libespressif__aht20.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__i2c_bus/libespressif__i2c_bus.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/main/libmain.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_eth/libesp_eth.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__bmp280/libesp-idf-lib__bmp280.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__aht20/libespressif__aht20.a
