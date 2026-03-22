@@ -1,0 +1,68 @@
+ESP32-ETH02 Ethernet + OTA + Web + Sensores
+
+(Resumen de 23 puntos)
+
+1.  Qué hace: Ethernet + IP fija + web + OTA + sensores.
+2.  Hardware: ESP32-ETH02 + LAN8720 + sensores opcionales.
+3.  Requisitos: ESP-IDF, cable, red.
+4.  Activar entorno: source ~/.espressif/…/export.sh
+5.  Puerto serie: /dev/cu.usbserial-110
+6.  Estructura proyecto: CMakeLists + main + código.
+7.  Dependencias: aht20 + bmp280.
+8.  Menuconfig:
+    -   Flash size = 8MB
+    -   Partition OTA custom
+9.  Particiones OTA: ota_0 / ota_1.
+10. Compilar: idf.py build
+11. Flashear: idf.py -p PORT flash monitor
+12. Red:
+
+-   IP: 192.168.10.99
+-   GW: 192.168.10.100
+
+13. Endpoints:
+
+-   / → web
+-   /status
+-   /sensors
+-   /update
+
+14. OTA: curl -X POST –data-binary @build.bin http://IP/update
+15. Flujo:
+
+-   1ª vez: flash
+-   luego: OTA
+
+16. I2C:
+
+-   SDA=14
+-   SCL=15
+
+17. Sensores:
+
+-   AHT20
+-   BMP280
+
+18. Detección real:
+
+-   solo true si responde
+
+19. Estado actual:
+
+-   todo funcionando sin sensores
+
+20. Git: git add -A git commit git push
+21. Problemas típicos:
+
+-   idf no cargado
+-   flash size incorrecto
+-   sensores no conectados
+
+22. Comandos útiles: build / flash / curl
+23. Próximas mejoras:
+
+-   gráfica
+-   uptime
+-   OTA web
+
+Fin.

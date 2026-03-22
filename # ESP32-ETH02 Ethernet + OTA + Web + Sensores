@@ -1,0 +1,88 @@
+# ESP32-ETH02 Ethernet + OTA + Web + Sensores
+
+Proyecto para una placa **ESP32-ETH02** con:
+
+- Ethernet LAN8720
+- IP estática
+- servidor web
+- OTA por HTTP
+- página web de estado
+- detección de sensores I2C:
+  - AHT20
+  - BMP280
+
+Si los sensores **no están conectados**, la web y la API indican claramente que **no se han detectado**.
+
+---
+
+# 1. Qué hace este proyecto
+
+Cuando arranca, la placa:
+
+1. Inicializa Ethernet
+2. Se pone en IP fija:
+   - **IP:** `192.168.10.99`
+   - **GW:** `192.168.10.100`
+   - **MASK:** `255.255.255.0`
+3. Arranca un servidor web en el puerto 80
+4. Intenta detectar sensores I2C
+5. Publica:
+   - `/` → web bonita con estado
+   - `/status` → JSON de estado general
+   - `/sensors` → JSON de sensores
+   - `/update` → OTA por HTTP POST
+
+---
+
+# 2. Hardware usado
+
+## Placa
+- **ESP32-ETH02**
+- Módulo ESP32-WROOM-32E
+- PHY Ethernet LAN8720
+
+## Conexión Ethernet
+La placa usa Ethernet por LAN8720.
+
+## Sensores previstos
+- **AHT20** → temperatura y humedad
+- **BMP280** → temperatura y presión
+
+Todavía puedes trabajar aunque **no haya sensores conectados**.
+
+---
+
+# 3. Requisitos en el ordenador
+
+Necesitas:
+
+- ESP-IDF instalado
+- entorno activado
+- cable serie/USB
+- conexión Ethernet entre Mac y placa o misma red configurada
+
+---
+
+# 4. Activar ESP-IDF
+
+En terminal:
+
+```bash
+source ~/.espressif/v5.5.2/esp-idf/export.sh
+
+
+idf.py --version
+
+/dev/cu.usbserial-110
+ls /dev/cu.*
+
+eth_hello/
+├── CMakeLists.txt
+├── partitions_ota.csv
+├── README.md
+└── main/
+    ├── CMakeLists.txt
+    ├── eth_hello_main.c
+    └── idf_component.yml
+
+

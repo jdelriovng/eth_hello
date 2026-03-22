@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "eth_hello",
-    "project_version":    "6909845-dirty",
+    "project_version":    "64789b6-dirty",
     "project_path":       "/Users/joaquindelriofernandez/esp/projects/eth_hello",
     "idf_path":           "/Users/joaquindelriofernandez/.espressif/v5.5.2/esp-idf",
     "build_dir":          "/Users/joaquindelriofernandez/esp/projects/eth_hello/build",
