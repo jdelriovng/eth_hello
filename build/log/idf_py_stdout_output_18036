@@ -1,0 +1,63 @@
+Command: /Users/joaquindelriofernandez/.espressif/python_env/idf5.5_py3.14_env/bin/python /Users/joaquindelriofernandez/.espressif/v5.5.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-110 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/eth_hello.elf /Users/joaquindelriofernandez/esp/projects/eth_hello/build/bootloader/bootloader.elf -m '/Users/joaquindelriofernandez/.espressif/python_env/idf5.5_py3.14_env/bin/python' '/Users/joaquindelriofernandez/.espressif/v5.5.2/esp-idf/tools/idf.py' '-p' '/dev/cu.usbserial-110'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6384
+load:0x40078000,len:15916
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Mar 22 2026 21:37:24[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (36) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 8MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 otadata          OTA data         01 00 0000f000 00002000[0m
+[0;32mI (69) boot:  2 phy_init         RF data          01 01 00011000 00001000[0m
+[0;32mI (76) boot:  3 ota_0            OTA app          00 10 00020000 00180000[0m
+[0;32mI (82) boot:  4 ota_1            OTA app          00 11 001a0000 00180000[0m
+[0;32mI (89) boot: End of partition table[0m
+[0;32mI (92) esp_image: segment 0: paddr=00020020 vaddr=3f400020 size=15e7ch ( 89724) map[0m
+[0;32mI (130) esp_image: segment 1: paddr=00035ea4 vaddr=3ffb0000 size=02618h (  9752) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=000384c4 vaddr=40080000 size=07b54h ( 31572) load[0m
+[0;32mI (147) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=3dfdch (253916) map[0m
+[0;32mI (234) esp_image: segment 4: paddr=0007e004 vaddr=40087b54 size=06b54h ( 27476) load[0m
+[0;32mI (245) esp_image: segment 5: paddr=00084b60 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (252) boot: Loaded app from partition at offset 0x20000[0m
+[0;32mI (252) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) cpu_start: Multicore app[0m
+[0;32mI (271) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (271) cpu_start: Pro cpu start user code[0m
+[0;32mI (271) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (273) app_init: Application information:[0m
+[0;32mI (277) app_init: Project name:     eth_hello[0m
+[0;32mI (281) app_init: App version:      1[0m
+[0;32mI (284) app_init: Compile time:     Mar 22 2026 21:37:15[0m
+[0;32mI (290) app_init: ELF file SHA256:  717123b23...[0m
+[0;32mI (294) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (298) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (302) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (306) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (310) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (316) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (321) heap_init: At 3FFB3938 len 0002C6C8 (177 KiB): DRAM[0m
+[0;32mI (326) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (332) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (337) heap_init: At 4008E6A8 len 00011958 (70 KiB): IRAM[0m
+[0;32mI (344) spi_flash: detected chip: generic[0m
+[0;32mI (346) spi_flash: flash io: dio[0m
+[0;32mI (350) main_task: Started on CPU0[0m
+[0;32mI (360) main_task: Calling app_main()[0m
+[0;32mI (370) ETH_HELLO: Starting Ethernet Hello World[0m
+[0;32mI (400) esp_eth.netif.netif_glue: b0:a7:32:75:dd:1f[0m
+[0;32mI (400) esp_eth.netif.netif_glue: ethernet attached to netif[0m
+[0;32mI (4400) ETH_HELLO: Ethernet Started[0m
+[0;32mI (4400) main_task: Returned from app_main()[0m
