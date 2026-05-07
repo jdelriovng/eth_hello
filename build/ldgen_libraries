@@ -36,6 +36,7 @@
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_app_format/libesp_app_format.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_gdbstub/libesp_gdbstub.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_coex/libesp_coex.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/driver/libdriver.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
@@ -65,7 +66,6 @@
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_phy/libesp_phy.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_netif/libesp_netif.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/wpa_supplicant/libwpa_supplicant.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_coex/libesp_coex.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_https_ota/libesp_https_ota.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_security/libesp_security.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/pthread/libpthread.a
@@ -107,6 +107,7 @@
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_wifi/libesp_wifi.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_driver_spi/libesp_driver_spi.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_gdbstub/libesp_gdbstub.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/bt/libbt.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/unity/libunity.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/cmock/libcmock.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/unity/libunity.a
@@ -132,6 +133,7 @@
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_eth/libesp_eth.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_hid/libesp_hid.a
+/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/bt/libbt.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/tcp_transport/libtcp_transport.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_http_client/libesp_http_client.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_http_server/libesp_http_server.a
@@ -157,13 +159,4 @@
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/spiffs/libspiffs.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/json/libjson.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__i2cdev/libesp-idf-lib__i2cdev.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__bmp280/libesp-idf-lib__bmp280.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__i2cdev/libesp-idf-lib__i2cdev.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__i2c_bus/libespressif__i2c_bus.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__aht20/libespressif__aht20.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__i2c_bus/libespressif__i2c_bus.a
 /Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/main/libmain.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp_eth/libesp_eth.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/esp-idf-lib__bmp280/libesp-idf-lib__bmp280.a
-/Users/joaquindelriofernandez/esp/projects/eth_hello/build/esp-idf/espressif__aht20/libespressif__aht20.a

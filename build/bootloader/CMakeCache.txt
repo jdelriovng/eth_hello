@@ -131,7 +131,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/Users/joaquindelriofernandez/.espressif/tools/ninja
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib
+CMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib -L/usr/local/hypre/lib
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -181,7 +181,7 @@ CMAKE_READELF:FILEPATH=/Users/joaquindelriofernandez/.espressif/tools/xtensa-esp
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib
+CMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib -L/usr/local/hypre/lib
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.

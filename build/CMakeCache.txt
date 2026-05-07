@@ -182,7 +182,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/Users/joaquindelriofernandez/.espressif/tools/ninja
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib
+CMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib -L/usr/local/hypre/lib
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -247,7 +247,7 @@ CMAKE_READELF:FILEPATH=/Users/joaquindelriofernandez/.espressif/tools/xtensa-esp
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib
+CMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/local/hypre/lib -L/usr/local/hypre/lib -L/usr/local/hypre/lib
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -558,7 +558,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=125
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=119
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -605,8 +605,6 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
-//esp-idf supports esp_driver_ components
-EIL_IDF_HAS_ESP_DRIVERS:INTERNAL=TRUE
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/opt/homebrew/bin/git][v2.52.0()]
 //Details about finding Python3
